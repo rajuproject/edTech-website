@@ -3,4 +3,20 @@ button{
 }
 .overlay{
     filter: brightness(50%);
-  }
+
+}
+
+@media screen and (max-width: 400px) {
+    .img-caption {
+   font-size: 15px;
+   }
+   .caption1 {
+    font-size: 10px;
+
+   }
+}
+@media screen and (min-width: 1200px) {
+    .img-caption {
+        font-size: 70px;
+   }
+}
