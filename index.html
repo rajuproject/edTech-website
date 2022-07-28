@@ -268,11 +268,10 @@
            </div>
         </section>
 
-        <!-- register  box  -->
+       
         <!-- model -->
         <section>
-          <div id="model">
-          <div class="modal" tabindex="-1">
+          <div class="modal" id="model" tabindex="-1">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
@@ -288,7 +287,10 @@
               </div>
             </div>
           </div>
-        </div></section>
+        </div>
+      </section>
+      <!-- end modal  -->
+  <!-- register  box  -->
         <section class="container mb-5 d-flex justify-content-around bg-primary align-items-center pt-5 pb-5 rounded">
           <div>
             <h1>Ready to join?</h1>
@@ -296,7 +298,7 @@
               readable content of a page when looking at its layout</p>
           </div>
           <div>
-            <a href="modal"><button type="button" class="btn btn-secondary"> Register Now</button></a>
+          <button type="button" data-bs-toggle="modal" data-bs-target="#model" class="btn btn-secondary"> Register Now</button>
           </div>
         </section>
 
